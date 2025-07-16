@@ -75,8 +75,8 @@ const Footer: React.FC = () => {
 
         <div className={classes.column}>
           <div className={classes.title}>संपर्क</div>
-          <div className={classes.contact}>📍 पुणे, महाराष्ट्र</div>
-          <div className={classes.contact}>📞 +91 98765 43210</div>
+          <div className={classes.contact}>📍 बेलापूर, महाराष्ट्र</div>
+          <div className={classes.contact}>📞 +91 9766599007</div>
           <div className={classes.contact}>📧 siddhivinayakyuvamanch@gmail.com</div>
         </div>
       </div>

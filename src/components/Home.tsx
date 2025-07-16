@@ -1,4 +1,5 @@
-import React, { useRef } from 'react';
+import * as React from 'react';
+import { useRef } from 'react';
 import { mergeStyleSets } from '@fluentui/react/lib/Styling';
 import { IconButton } from '@fluentui/react/lib/Button';
 import Footer from '../common/Footer';
