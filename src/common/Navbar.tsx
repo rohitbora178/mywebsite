@@ -40,6 +40,7 @@ const styles = mergeStyleSets({
   },
   navLinks: {
     display: 'flex',
+    
     gap: 32,
   },
   panelLinks: {
