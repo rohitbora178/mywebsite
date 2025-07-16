@@ -34,13 +34,13 @@ const styles = mergeStyleSets({
     boxShadow: '0 2px 6px rgba(0,0,0,0.3)',
   },
   logoImage: {
-    height: 40,   
+    height: 40,
     cursor: 'pointer',
     userSelect: 'none',
   },
   navLinks: {
     display: 'flex',
-    
+
     gap: 32,
   },
   panelLinks: {
@@ -119,11 +119,11 @@ const Navbar: React.FC = () => {
   return (
     <>
       <nav className={styles.navbar}>
- <img
+        <img
           src={logo}
           alt="Logo"
           className={styles.logoImage}
-          onClick={() => navigate('/')}  // Optional: clicking logo goes home
+          onClick={() => navigate('/')}  
         />
 
         {!isMobile ? (
